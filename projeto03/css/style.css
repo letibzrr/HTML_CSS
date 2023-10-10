@@ -1,0 +1,18 @@
+:root{
+    --black: #000;
+    --blue: #4e6c7a;
+    --white: #FFF;
+}
+.container{
+    border: 13px solid rgb(78, 108, 122);
+    width: 620px;
+}
+article{
+    padding: 0.8rem;
+    background-color: var(--blue);
+    color: var(--white);
+}
+footer{
+    text-align: center;
+    color: var(--blue);
+}

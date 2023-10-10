@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--input = tipo de informação do formulário-->
+    <!--submit = botão de enviar-->
+    <!--text = textos-->
+    <!--number = números-->
+    <!--file = arquivo-->
+    <!--label = informação escrita-->
+    <!--radio = bolinha de verificação-->
+    <!--placeholder = sugestão do que escrever-->
+    <!--textarea = deixar um comentário-->
+    <!--cols = quantidade de letras-->
+    <!--rows = quantidade de linhas-->
+    <!--value = modificar o botão de enviar-->
+    <!--hidden = esconder informações-->
+    <!--disabled = desabilitar informação-->
+    <!--readonly = desabilitar campo de leitura-->
+    <!--action = como vou mandar as informações-->
+    <!--method = de que maneira eu vou mandar essas informações-->
+    <!--enctype = criptografia-->
+    <form>
+        <label for="Nome">Nome</label><br>
+        <input type="text" id="Nome" required><br>
+
+        <label for="Sobrenome">Sobrenome</label><br>
+        <input type="text" id="Sobrenome" required><br>
+
+        <label for="Email">Email</label><br>
+        <input type="email" id="Email" placeholder="usuario@email.com" required><br>
+
+        <label for="Telefone">Telefone</label><br>
+        <input type="number" id="Telefone" placeholder="(xx)xxxx-xxxx" required><br>
+        <br>
+        <textarea cols="21" rows="5"></textarea><br> 
+        <br>
+        <input type="radio">
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>

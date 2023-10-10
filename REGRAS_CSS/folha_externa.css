@@ -1,0 +1,18 @@
+h4{
+    color: white;
+    background: rgb(16, 85, 16);
+    font-size: 25px;
+}
+
+h2{
+    color: green;
+    background: white;
+}
+
+#black{
+    color: black;
+}
+
+.gray{
+    color: gray;
+}

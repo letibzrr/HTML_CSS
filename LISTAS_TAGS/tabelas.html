@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Tabelas (Modelo Aceitável)</h2>
+    <!--border = bordas (podem ser colocadas no css)-->
+    <!--tr = linhas-->
+    <!--td = dados-->
+    <!--thead = cabeçalho, tbody = corpo, tfoot = rodapé-->
+    <!--colspan = expandir a coluna-->
+    <!--rowspan = expandir a linha-->
+    <table border="2">
+        <tr>
+            <td><strong>EX 01</strong></td>
+            <td><strong>EX 02</strong></td>
+            <td><strong>EX 03</strong></td>
+            <td><strong>EX 04</strong></td>
+            <td><strong>EX 05</strong></td>
+        </tr>
+        <tr>
+           <td>Um</td>
+           <td>Dois</td>
+           <td>Três</td>
+           <td>Quatro</td>
+           <td>Cinco</td>
+         </tr>
+         <tr>
+           <td>01</td>
+           <td>02</td>
+           <td>03</td>
+           <td>04</td>
+           <td>05</td>
+         </tr>
+    </table>
+    
+    <hr>
+
+    <h2>Tabela (Modelo Mais Apropriado)</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <td>Código</td>
+                <td>Produto</td>
+                <td>Valor</td>
+                <td>Vendas</td>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Notebook</td>
+                    <td>R$3.000,00</td>
+                    <td rowspan="2">Gamer</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Mouse</td>
+                    <td>R$70,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="2">Total</td>
+                <td>R$3.070,00</td>
+            </tfoot>
+    </table>
+</body>
+</html>
