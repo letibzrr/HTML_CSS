@@ -1,0 +1,31 @@
+div{
+    border: 3px solid blueviolet; 
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    padding: 2rem 4rem; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    border: 2px solid purple;
+    display: inline;
+}
+
+a{
+    border: 2px solid rebeccapurple;
+    display: block;
+}
+
+.box-01{
+    margin: 2rem auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.box-02{
+    margin: 2rem auto;
+    display: inline-block;
+    text-align: center;
+}

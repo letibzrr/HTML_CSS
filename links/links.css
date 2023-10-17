@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: blue;
+    transition: 3s;
+}
+
+a:hover{
+    background-color: darkblue;
+    font-size: 20px;
+}
+
+/*a:link{
+    color: red;
+}
+
+a:visited{
+    color: azure;
+    background-color: royalblue;
+}

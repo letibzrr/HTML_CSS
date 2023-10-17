@@ -7,12 +7,102 @@
     border: 13px solid rgb(78, 108, 122);
     width: 620px;
 }
+.navbar{
+    padding: auto;
+    background-color: var(--gray);
+    text-align: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: bold;
+}
 article{
     padding: 0.8rem;
     background-color: var(--blue);
     color: var(--white);
+
 }
 footer{
     text-align: center;
     color: var(--blue);
+}
+
+.intro-div{
+    border: 5px solid white; 
+    width: 555px;
+    height: 170px;
+    font-size: 15px;
+    padding: 1rem 1rem; 
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.elenco-div{
+    border: 5px solid white; 
+    width: 400px;
+    height: 710px;
+    font-size: 16px;
+    padding: 2rem 1rem; 
+    display: inline-block;
+}
+
+.c-01{
+    border: 5px solid white; 
+    width: 555px;
+    height: 440px;
+    font-size: 16px;
+    padding: 2rem 1rem; 
+    display: inline-block; 
+    margin: 2rem auto; 
+}
+
+.c-02{
+    border: 5px solid white; 
+    width: 555px;
+    height: 440px;
+    font-size: 16px;
+    padding: 2rem 1rem; 
+    display: inline-block;  
+    margin: 2rem auto;
+}
+
+.c-03{
+    border: 5px solid white; 
+    width: 555px;
+    height: 440px;
+    font-size: 16px;
+    padding: 2rem 1rem; 
+    display: inline-block;  
+    margin: 2rem auto;
+}
+
+.c-04{
+    border: 5px solid white; 
+    width: 555px;
+    height: 440px;
+    font-size: 16px;
+    padding: 2rem 1rem; 
+    display: inline-block;  
+    margin: 2rem auto;
+}
+
+.g-01{
+    border: 5px solid white; 
+    width: 555px;
+    height: 440px;
+    font-size: 16px;
+    padding: 2rem 1rem; 
+    display: inline-block;  
+    margin: 2rem auto; 
+}
+
+.g-02{
+    border: 5px solid var(--blue); 
+    width: 555px;
+    height: 900px;
+    font-size: 16px;
+    padding: 2rem 1rem; 
+    display: inline-block;  
+    margin: 2rem auto;   
 }
