@@ -1,8 +1,9 @@
 .container{
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
+    color: purple;
+    background-color: purple;
     margin: 1rem auto;
-    border: 3px solid purple;
     display: flex;
     /**horizontal eixo x, vertical eixo y*/
     flex-direction: row-reverse;
