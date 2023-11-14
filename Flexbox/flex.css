@@ -37,8 +37,8 @@ div{
 }
 /*.box-01{
     order: 1; /*modificar a ordem da caixa
-    flex-grow: 4; /*aumentar a largura da caixa
-    flex-shrink: 2; /*diminuir a largura da caixa
+    flex-grow: 4; /*aumentar a largura 
+    flex-shrink: 2; /*diminuir a largura 
 }*/
 
 .box-02, .box-04, .box-06{
